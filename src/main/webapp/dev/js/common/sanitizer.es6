@@ -1,3 +1,12 @@
+/**
+* Encodes a string for displaying in a HTML document.
+* Uses an in-memory element created with jQuery.
+* @param the string to be encoded
+*/
+function encodeHtmlString(stringToEncode) {
+    return $('<div>').text(stringToEncode).html();
+}
+
 function escapeRegExp(string) {
     return string.replace(/([.*+?^=!:${}()|[\]/\\])/g, '\\$1');
 }
@@ -36,6 +45,7 @@ function sanitizeForJs(rawString) {
 }
 
 export default {
+    encodeHtmlString,
     sanitizeGoogleId,
     sanitizeForJs,
 };
