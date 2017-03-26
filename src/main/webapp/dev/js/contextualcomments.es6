@@ -1,4 +1,4 @@
-/* globals richTextEditorBuilder:false,
+/* globals import { richTextEditorBuilder } from './richTextEditor.es6';,
            tinymce:false,
            isBlank:false,
            import { setStatusMessage } from './common/statusMessage.es6';,

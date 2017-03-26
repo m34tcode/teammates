@@ -1,7 +1,7 @@
 /* global tinyMCE:false,
           import BootboxWrapper from './common/bootboxWrapper.es6';,
           import { StatusType } from './const.es6';,
-          richTextEditorBuilder:false,
+          import { richTextEditorBuilder } from './richTextEditor.es6';,
           tinymce:false,
           isBlank:false,
           import { setStatusMessage } from './common/statusMessage.es6';,

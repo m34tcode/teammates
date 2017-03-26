@@ -1,5 +1,5 @@
 /* global
-FeedbackPath:false, import BootboxWrapper from './common/bootboxWrapper.es6';, richTextEditorBuilder:false, destroyEditor:false, import { StatusType } from './const.es6';
+FeedbackPath:false, import BootboxWrapper from './common/bootboxWrapper.es6';, import { richTextEditorBuilder } from './richTextEditor.es6';, destroyEditor:false, import { StatusType } from './const.es6';
 bindUncommonSettingsEvents:false, updateUncommonSettingsInfo:false, showUncommonPanelsIfNotInDefaultValues:false
 attachVisibilityDropdownEvent:false, attachVisibilityCheckboxEvent:false, formatCheckBoxes:false
 import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';, checkFeedbackQuestion:false, scrollToElement:false

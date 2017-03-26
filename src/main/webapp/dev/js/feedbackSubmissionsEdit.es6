@@ -1,4 +1,4 @@
-/* global richTextEditorBuilder:false,
+/* global import { richTextEditorBuilder } from './richTextEditor.es6';,
           import { addLoadingIndicator } from './common/ui.es6';,
           disallowNonNumericEntries:false,
           scrollToElement:false,

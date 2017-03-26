@@ -1,5 +1,4 @@
-/* global tinymce:false, tinyMCE:false
- */
+import tinymce from 'tinymce';
 
 /* eslint-disable camelcase */ // The property names are determined by external library (tinymce)
 const richTextEditorBuilder = {
@@ -82,3 +81,7 @@ function destroyEditor(id) {
         currentEditor.destroy();
     }
 }
+
+export default {
+    richTextEditorBuilder,
+};

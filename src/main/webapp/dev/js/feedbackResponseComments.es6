@@ -1,7 +1,7 @@
 /* global tinyMCE:false,
           destroyEditor:false,
           import BootboxWrapper from './common/bootboxWrapper.es6';,
-          richTextEditorBuilder:false,
+          import { richTextEditorBuilder } from './richTextEditor.es6';,
           tinymce:false,
           toggleChevron:false,
           import { StatusType } from './const.es6';
