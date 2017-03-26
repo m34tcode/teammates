@@ -1,11 +1,10 @@
-/* global tinyMCE:false,
-          destroyEditor:false,
-          import BootboxWrapper from './common/bootboxWrapper.es6';,
-          import { richTextEditorBuilder } from './richTextEditor.es6';,
-          import tinymce from 'tinymce';,
-          toggleChevron:false,
-          import { StatusType } from './const.es6';
- */
+/* global tinyMCE:false */
+import tinymce from 'tinymce';
+import BootboxWrapper from './common/bootboxWrapper.es6';
+import { destroyEditor } from './richTextEditor.es6';
+import { richTextEditorBuilder } from './richTextEditor.es6';
+import { toggleChevron } from './common/ui.es6';
+import { StatusType } from './const.es6';
 
 $(document).ready(() => {
     registerResponseCommentsEvent();

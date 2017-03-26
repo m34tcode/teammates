@@ -84,4 +84,5 @@ function destroyEditor(id) {
 
 export default {
     richTextEditorBuilder,
+    destroyEditor,
 };
