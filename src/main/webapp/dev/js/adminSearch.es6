@@ -1,5 +1,6 @@
-import { highlightSearchResult } from './common/ui.es6';
-/* global import { highlightSearchResult } from './common/ui.es6'; import { StatusType } from './const.es6'; import { setStatusMessage } from './common/statusMessage.es6'; */
+import { highlightSearchResult } from './common/ui.es6'; 
+import { StatusType } from './const.es6'; 
+import { setStatusMessage } from './common/statusMessage.es6';
 
 $(document).ready(() => {
     $('.fslink').hide();
