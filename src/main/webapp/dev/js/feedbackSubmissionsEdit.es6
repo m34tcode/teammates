@@ -1,14 +1,13 @@
-/* global import { richTextEditorBuilder } from './richTextEditor.es6';,
-          import { addLoadingIndicator } from './common/ui.es6';,
-          disallowNonNumericEntries:false,
-          scrollToElement:false,
-          import { setStatusMessage } from './common/statusMessage.es6';,
-          import { StatusType } from './const.es6';,
-          sanitizeForJs:false,
-          import tinymce from 'tinymce';,
-          import BootboxWrapper from './common/bootboxWrapper.es6';,
-          isNumber:false
- */
+import tinymce from 'tinymce';
+import { richTextEditorBuilder } from './richTextEditor.es6';
+import { addLoadingIndicator } from './common/ui.es6';
+import { disallowNonNumericEntries } from './common/ui.es6';
+import { scrollToElement } from './common/scrollTo.es6';
+import { setStatusMessage } from './common/statusMessage.es6';
+import { StatusType } from './const.es6';
+import { sanitizeForJs } from './common/sanitizer.es6';
+import BootboxWrapper from './common/bootboxWrapper.es6';
+import { isNumber } from './common/helper.es6';
 
 const FEEDBACK_RESPONSE_RECIPIENT = 'responserecipient';
 const FEEDBACK_RESPONSE_TEXT = 'responsetext';

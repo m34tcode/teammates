@@ -1,4 +1,4 @@
-/* global scrollToElement:false
+/* global import { scrollToElement } from './common/scrollTo.es6';
  */
 
 $(document).ready(() => {

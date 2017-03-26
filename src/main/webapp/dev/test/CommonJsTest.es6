@@ -1,6 +1,6 @@
 /* global
-isWithinView:false, isNumber:false, isDate:false, import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false
-roundToThreeDp:false, sanitizeForJs:false, import { isBlank } from './common/helper.es6';, import { StatusType } from './const.es6';
+isWithinView:false, import { isNumber } from './common/helper.es6';, isDate:false, import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false
+roundToThreeDp:false, import { sanitizeForJs } from './common/sanitizer.es6';, import { isBlank } from './common/helper.es6';, import { StatusType } from './const.es6';
 import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';
 sortBase:false, sortNum:false, sortDate:false, getPointValue:false, sortByPoint:false
 sanitizeGoogleId:false, isValidGoogleId:false, isEmailValid:false, isNameValid:false

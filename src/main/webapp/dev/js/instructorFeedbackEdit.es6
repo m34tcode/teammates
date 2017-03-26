@@ -2,11 +2,11 @@
 FeedbackPath:false, import BootboxWrapper from './common/bootboxWrapper.es6';, import { richTextEditorBuilder } from './richTextEditor.es6';, import { destroyEditor } from './richTextEditor.es6';,, import { StatusType } from './const.es6';
 bindUncommonSettingsEvents:false, updateUncommonSettingsInfo:false, showUncommonPanelsIfNotInDefaultValues:false
 attachVisibilityDropdownEvent:false, attachVisibilityCheckboxEvent:false, formatCheckBoxes:false
-import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';, checkFeedbackQuestion:false, scrollToElement:false
+import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';, checkFeedbackQuestion:false, import { scrollToElement } from './common/scrollTo.es6';
 formatSessionVisibilityGroup:false, formatResponsesVisibilityGroup:false, collapseIfPrivateSession:false
 setupFsCopyModal:false, bindAssignWeightsCheckboxes:false, tinyMCE:false, moveAssignWeightsCheckbox:false
 import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false, fixContribQnGiverRecipient:false, setContribQnVisibilityFormat:false
-showVisibilityCheckboxesIfCustomOptionSelected:false, hasAssignedWeights:false, disallowNonNumericEntries:false
+showVisibilityCheckboxesIfCustomOptionSelected:false, hasAssignedWeights:false, import { disallowNonNumericEntries } from './common/ui.es6';
 getVisibilityMessage:false, hideConstSumOptionTable:false, setDefaultContribQnVisibilityIfNeeded:false
 hideRankOptionTable:false, matchVisibilityOptionToFeedbackPath:false
 
