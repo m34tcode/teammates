@@ -3,10 +3,10 @@
           import { StatusType } from './const.es6';,
           import { richTextEditorBuilder } from './richTextEditor.es6';,
           import tinymce from 'tinymce';,
-          isBlank:false,
+          import { isBlank } from './common/helper.es6';,
           import { setStatusMessage } from './common/statusMessage.es6';,
           import { StatusType } from './const.es6';,
-          scrollToTop:false
+          import { scrollToTop } from './common/scrollTo.es6';
  */
 
 $(document).ready(() => {

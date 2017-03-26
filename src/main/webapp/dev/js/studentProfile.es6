@@ -1,4 +1,4 @@
-/* global import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; scrollToTop:false */
+/* global import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; import { scrollToTop } from './common/scrollTo.es6'; */
 
 function finaliseEditPictureForm() {
     const picture = $('#editableProfilePicture');

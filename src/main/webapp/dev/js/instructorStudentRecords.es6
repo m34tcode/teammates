@@ -1,6 +1,6 @@
 /* global toggleSingleCollapse:false showCommentBox:false import tinymce from 'tinymce'; */
-/* global isBlank:false import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; */
-/* global scrollToTop:false import { richTextEditorBuilder } from './richTextEditor.es6'; import BootboxWrapper from './common/bootboxWrapper.es6'; */
+/* global import { isBlank } from './common/helper.es6'; import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; */
+/* global import { scrollToTop } from './common/scrollTo.es6'; import { richTextEditorBuilder } from './richTextEditor.es6'; import BootboxWrapper from './common/bootboxWrapper.es6'; */
 
 const COMMENT_TEXT = 'commenttext';
 const COMMENT_EDITTYPE = 'commentedittype';

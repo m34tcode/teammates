@@ -1,14 +1,10 @@
+import { richTextEditorBuilder } from './richTextEditor.es6';
 import tinymce from 'tinymce';
 import { isBlank } from './common/helper.es6';
-/* globals import { richTextEditorBuilder } from './richTextEditor.es6';,
-           import tinymce from 'tinymce';,
-           isBlank:false,
-           import { setStatusMessage } from './common/statusMessage.es6';,
-           import { StatusType } from './const.es6';,
-           scrollToTop:false,
-           isShowCommentBox:false,
-           commentRecipient:false
- */
+import { setStatusMessage } from './common/statusMessage.es6';
+import { StatusType } from './const.es6';
+import { scrollToTop } from './common/scrollTo.es6';
+/* globals isShowCommentBox:false, commentRecipient:false */
 
 $(document).ready(() => {
     $('#button_add_comment').click(() => {

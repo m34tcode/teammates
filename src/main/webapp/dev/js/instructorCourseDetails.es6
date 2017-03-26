@@ -87,9 +87,7 @@ function attachEventToSendInviteLink() {
 
 const isShowCommentBox = false;
 
-/*
 export default {
     submitFormAjax,
     isShowCommentBox
 };
-*/
