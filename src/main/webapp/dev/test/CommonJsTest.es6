@@ -1,5 +1,5 @@
 /* global
-isWithinView:false, isNumber:false, isDate:false, setStatusMessage:false, clearStatusMessages:false
+isWithinView:false, isNumber:false, isDate:false, import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false
 roundToThreeDp:false, sanitizeForJs:false, isBlank:false, import { StatusType } from './const.es6';
 addLoadingIndicator:false, removeLoadingIndicator:false
 sortBase:false, sortNum:false, sortDate:false, getPointValue:false, sortByPoint:false

@@ -1,4 +1,4 @@
-/* global import { toggleSort } from './common/sortBy.es6'; selectElementContents:false attachEventToDeleteStudentLink:false setStatusMessage:false */
+/* global import { toggleSort } from './common/sortBy.es6'; selectElementContents:false attachEventToDeleteStudentLink:false import { setStatusMessage } from './common/statusMessage.es6'; */
 /* global import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 
 $(document).ready(() => {

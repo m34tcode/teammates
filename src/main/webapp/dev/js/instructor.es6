@@ -1,4 +1,4 @@
-/* global TEAMNAME_MAX_LENGTH:false setStatusMessage:false DISPLAY_FIELDS_EMPTY:false */
+/* global TEAMNAME_MAX_LENGTH:false import { setStatusMessage } from './common/statusMessage.es6'; DISPLAY_FIELDS_EMPTY:false */
 /* global import { StatusType } from './const.es6'; isNameValid:false DISPLAY_NAME_INVALID:false */
 /* global DISPLAY_STUDENT_TEAMNAME_INVALID:false isEmailValid:false DISPLAY_EMAIL_INVALID:false import BootboxWrapper from './common/bootboxWrapper.es6';
 

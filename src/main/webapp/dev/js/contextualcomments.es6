@@ -1,7 +1,7 @@
 /* globals richTextEditorBuilder:false,
            tinymce:false,
            isBlank:false,
-           setStatusMessage:false,
+           import { setStatusMessage } from './common/statusMessage.es6';,
            import { StatusType } from './const.es6';,
            scrollToTop:false,
            isShowCommentBox:false,

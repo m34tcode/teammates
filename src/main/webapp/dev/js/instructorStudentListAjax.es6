@@ -1,4 +1,4 @@
-/* global bindDefaultImageIfMissing:false bindStudentPhotoLink:false setStatusMessage:false */
+/* global bindDefaultImageIfMissing:false bindStudentPhotoLink:false import { setStatusMessage } from './common/statusMessage.es6'; */
 /* global import { StatusType } from './const.es6'; clearStatusMessages:false checkCourseBinding:false */
 
 const STUDENT_LIMIT = 3000;

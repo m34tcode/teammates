@@ -2,7 +2,7 @@
           addLoadingIndicator:false,
           disallowNonNumericEntries:false,
           scrollToElement:false,
-          setStatusMessage:false,
+          import { setStatusMessage } from './common/statusMessage.es6';,
           import { StatusType } from './const.es6';,
           sanitizeForJs:false,
           tinymce:false,

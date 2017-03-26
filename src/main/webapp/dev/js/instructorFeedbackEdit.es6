@@ -5,7 +5,7 @@ attachVisibilityDropdownEvent:false, attachVisibilityCheckboxEvent:false, format
 addLoadingIndicator:false, removeLoadingIndicator:false, checkFeedbackQuestion:false, scrollToElement:false
 formatSessionVisibilityGroup:false, formatResponsesVisibilityGroup:false, collapseIfPrivateSession:false
 setupFsCopyModal:false, bindAssignWeightsCheckboxes:false, tinyMCE:false, moveAssignWeightsCheckbox:false
-setStatusMessage:false, clearStatusMessages:false, fixContribQnGiverRecipient:false, setContribQnVisibilityFormat:false
+import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false, fixContribQnGiverRecipient:false, setContribQnVisibilityFormat:false
 showVisibilityCheckboxesIfCustomOptionSelected:false, hasAssignedWeights:false, disallowNonNumericEntries:false
 getVisibilityMessage:false, hideConstSumOptionTable:false, setDefaultContribQnVisibilityIfNeeded:false
 hideRankOptionTable:false, matchVisibilityOptionToFeedbackPath:false

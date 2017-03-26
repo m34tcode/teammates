@@ -1,5 +1,5 @@
 /* global toggleSingleCollapse:false showCommentBox:false tinymce:false */
-/* global isBlank:false setStatusMessage:false import { StatusType } from './const.es6'; */
+/* global isBlank:false import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; */
 /* global scrollToTop:false richTextEditorBuilder:false import BootboxWrapper from './common/bootboxWrapper.es6'; */
 
 const COMMENT_TEXT = 'commenttext';

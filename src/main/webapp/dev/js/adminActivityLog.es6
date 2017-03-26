@@ -1,5 +1,6 @@
+import { setStatusMessage } from './common/statusMessage.es6';
 /* global
-setStatusMessage:false import { StatusType } from './const.es6'; import { bindBackToTopButtons } from './adminstrator.es6'; addLoadingIndicator:false removeLoadingIndicator:false
+import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; import { bindBackToTopButtons } from './adminstrator.es6'; addLoadingIndicator:false removeLoadingIndicator:false
 */
 
 $(document).ready(() => {

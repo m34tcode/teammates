@@ -2,7 +2,7 @@
           bindCollapseEvents:false,
           bindPublishButtons:false,
           bindUnpublishButtons:false,
-          setStatusMessage:false,
+          import { setStatusMessage } from './common/statusMessage.es6';,
           showSingleCollapse:false,
           hideSingleCollapse:false,
           toggleSingleCollapse:false

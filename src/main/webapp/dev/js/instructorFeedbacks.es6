@@ -1,5 +1,5 @@
 /* global
-import { StatusType } from './const.es6'; richTextEditorBuilder:false setStatusMessage:false setStatusMessageToForm:false
+import { StatusType } from './const.es6'; richTextEditorBuilder:false import { setStatusMessage } from './common/statusMessage.es6'; setStatusMessageToForm:false
 Const:false clearStatusMessages:false bindPublishButtons:false bindRemindButtons:false
 bindUnpublishButtons:false bindDeleteButtons:false linkAjaxForResponseRate:false
 updateNumScalePossibleValues:false addLoadingIndicator:false setupFsCopyModal:false
