@@ -3,7 +3,7 @@ isWithinView:false, import { isNumber } from './common/helper.es6';, isDate:fals
 roundToThreeDp:false, import { sanitizeForJs } from './common/sanitizer.es6';, import { isBlank } from './common/helper.es6';, import { StatusType } from './const.es6';
 import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';
 sortBase:false, sortNum:false, sortDate:false, getPointValue:false, sortByPoint:false
-sanitizeGoogleId:false, isValidGoogleId:false, isEmailValid:false, isNameValid:false
+sanitizeGoogleId:false, isValidGoogleId:false, import { isEmailValid } from './common/validator.es6';, import { isNameValid } from './common/validator.es6';
 generateRandomString:false, NAME_MAX_LENGTH:false
 */
 

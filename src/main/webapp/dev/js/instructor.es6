@@ -1,6 +1,8 @@
-/* global TEAMNAME_MAX_LENGTH:false import { setStatusMessage } from './common/statusMessage.es6'; DISPLAY_FIELDS_EMPTY:false */
-/* global import { StatusType } from './const.es6'; isNameValid:false DISPLAY_NAME_INVALID:false */
-/* global DISPLAY_STUDENT_TEAMNAME_INVALID:false isEmailValid:false DISPLAY_EMAIL_INVALID:false import BootboxWrapper from './common/bootboxWrapper.es6';
+import { setStatusMessage } from './common/statusMessage.es6';
+import { StatusType } from './const.es6';
+import { isEmailValid, isNameValid } from './common/validator.es6';
+import BootboxWrapper from './common/bootboxWrapper.es6';
+import { DisplayMessages, InstructorCourseEnroll, FieldLength } from './const.es6';
 
 /*
  * This JavaScript file is included in all instructor pages. Functions here
@@ -31,7 +33,7 @@ $(document).ready(() => {
  * @returns {Boolean}
  */
 function isStudentTeamNameValid(teamName) {
-    return teamName.length <= TEAMNAME_MAX_LENGTH;
+    return teamName.length <= FieldLength.TEAMNAME_MAX_LENGTH;
 }
 
 /**
@@ -42,16 +44,16 @@ function isStudentTeamNameValid(teamName) {
  */
 function isStudentInputValid(editName, editTeamName, editEmail) {
     if (editName === '' || editTeamName === '' || editEmail === '') {
-        setStatusMessage(DISPLAY_FIELDS_EMPTY, StatusType.DANGER);
+        setStatusMessage(InstructorCourseEnroll.DISPLAY_FIELDS_EMPTY, StatusType.DANGER);
         return false;
     } else if (!isNameValid(editName)) {
-        setStatusMessage(DISPLAY_NAME_INVALID, StatusType.DANGER);
+        setStatusMessage(DisplayMessages.DISPLAY_NAME_INVALID, StatusType.DANGER);
         return false;
     } else if (!isStudentTeamNameValid(editTeamName)) {
-        setStatusMessage(DISPLAY_STUDENT_TEAMNAME_INVALID, StatusType.DANGER);
+        setStatusMessage(DisplayMessages.DISPLAY_STUDENT_TEAMNAME_INVALID, StatusType.DANGER);
         return false;
     } else if (!isEmailValid(editEmail)) {
-        setStatusMessage(DISPLAY_EMAIL_INVALID, StatusType.DANGER);
+        setStatusMessage(DisplayMessages.DISPLAY_EMAIL_INVALID, StatusType.DANGER);
         return false;
     }
 
