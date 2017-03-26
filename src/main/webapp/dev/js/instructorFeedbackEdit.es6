@@ -2,7 +2,7 @@
 FeedbackPath:false, import BootboxWrapper from './common/bootboxWrapper.es6';, richTextEditorBuilder:false, destroyEditor:false, import { StatusType } from './const.es6';
 bindUncommonSettingsEvents:false, updateUncommonSettingsInfo:false, showUncommonPanelsIfNotInDefaultValues:false
 attachVisibilityDropdownEvent:false, attachVisibilityCheckboxEvent:false, formatCheckBoxes:false
-addLoadingIndicator:false, removeLoadingIndicator:false, checkFeedbackQuestion:false, scrollToElement:false
+import { addLoadingIndicator } from './common/ui.es6';, import { removeLoadingIndicator } from './common/ui.es6';, checkFeedbackQuestion:false, scrollToElement:false
 formatSessionVisibilityGroup:false, formatResponsesVisibilityGroup:false, collapseIfPrivateSession:false
 setupFsCopyModal:false, bindAssignWeightsCheckboxes:false, tinyMCE:false, moveAssignWeightsCheckbox:false
 import { setStatusMessage } from './common/statusMessage.es6';, clearStatusMessages:false, fixContribQnGiverRecipient:false, setContribQnVisibilityFormat:false

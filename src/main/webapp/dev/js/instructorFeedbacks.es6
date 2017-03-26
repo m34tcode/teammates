@@ -2,7 +2,7 @@
 import { StatusType } from './const.es6'; richTextEditorBuilder:false import { setStatusMessage } from './common/statusMessage.es6'; setStatusMessageToForm:false
 Const:false clearStatusMessages:false bindPublishButtons:false bindRemindButtons:false
 bindUnpublishButtons:false bindDeleteButtons:false linkAjaxForResponseRate:false
-updateNumScalePossibleValues:false addLoadingIndicator:false setupFsCopyModal:false
+updateNumScalePossibleValues:false import { addLoadingIndicator } from './common/ui.es6'; setupFsCopyModal:false
 
 FEEDBACK_QUESTION_RECIPIENTTYPE:false, FEEDBACK_QUESTION_NUMBEROFENTITIESTYPE:false, FEEDBACK_QUESTION_TEXT:false
 DISPLAY_FEEDBACK_QUESTION_NUMBEROFENTITIESINVALID:false, DISPLAY_FEEDBACK_QUESTION_TEXTINVALID:false

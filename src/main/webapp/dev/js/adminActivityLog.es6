@@ -1,7 +1,8 @@
-import { setStatusMessage } from './common/statusMessage.es6';
-/* global
-import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; import { bindBackToTopButtons } from './adminstrator.es6'; addLoadingIndicator:false removeLoadingIndicator:false
-*/
+import { setStatusMessage } from './common/statusMessage.es6'; 
+import { StatusType } from './const.es6'; 
+import { bindBackToTopButtons } from './adminstrator.es6'; 
+import { addLoadingIndicator } from './common/ui.es6'; 
+import { removeLoadingIndicator } from './common/ui.es6';
 
 $(document).ready(() => {
     $('#filterReference').toggle();
@@ -115,11 +116,8 @@ function highlightKeywordsInLogMessages() {
     });
 }
 
-/*
 export default {
     toggleReference,
     submitLocalTimeAjaxRequest,
     submitFormAjax,
 };
-*/
-/* exported toggleReference, submitLocalTimeAjaxRequest, submitFormAjax */

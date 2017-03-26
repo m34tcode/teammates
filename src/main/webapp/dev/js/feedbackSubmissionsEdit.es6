@@ -1,5 +1,5 @@
 /* global richTextEditorBuilder:false,
-          addLoadingIndicator:false,
+          import { addLoadingIndicator } from './common/ui.es6';,
           disallowNonNumericEntries:false,
           scrollToElement:false,
           import { setStatusMessage } from './common/statusMessage.es6';,
