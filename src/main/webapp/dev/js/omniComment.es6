@@ -2,7 +2,7 @@
           import BootboxWrapper from './common/bootboxWrapper.es6';,
           import { StatusType } from './const.es6';,
           import { richTextEditorBuilder } from './richTextEditor.es6';,
-          tinymce:false,
+          import tinymce from 'tinymce';,
           isBlank:false,
           import { setStatusMessage } from './common/statusMessage.es6';,
           import { StatusType } from './const.es6';,

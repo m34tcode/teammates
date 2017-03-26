@@ -1,4 +1,4 @@
-/* global import { bindBackToTopButtons } from './adminstrator.es6'; */
+import { bindBackToTopButtons } from './adminstrator.es6';
 
 $(document).ready(() => {
     $('#timeFramePanel').toggle();
@@ -53,11 +53,8 @@ function toggleFilter() {
     }
 }
 
-/*
 export default {
     openAllSections,
     closeAllSections,
     toggleFilter,
 };
-*/
-/* exported openAllSections, closeAllSections, toggleFilter */

@@ -5,7 +5,7 @@
           import { setStatusMessage } from './common/statusMessage.es6';,
           import { StatusType } from './const.es6';,
           sanitizeForJs:false,
-          tinymce:false,
+          import tinymce from 'tinymce';,
           import BootboxWrapper from './common/bootboxWrapper.es6';,
           isNumber:false
  */

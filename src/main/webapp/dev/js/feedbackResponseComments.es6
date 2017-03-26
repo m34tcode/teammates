@@ -2,7 +2,7 @@
           destroyEditor:false,
           import BootboxWrapper from './common/bootboxWrapper.es6';,
           import { richTextEditorBuilder } from './richTextEditor.es6';,
-          tinymce:false,
+          import tinymce from 'tinymce';,
           toggleChevron:false,
           import { StatusType } from './const.es6';
  */

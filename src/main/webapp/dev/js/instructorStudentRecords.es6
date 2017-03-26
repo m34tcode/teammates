@@ -1,4 +1,4 @@
-/* global toggleSingleCollapse:false showCommentBox:false tinymce:false */
+/* global toggleSingleCollapse:false showCommentBox:false import tinymce from 'tinymce'; */
 /* global isBlank:false import { setStatusMessage } from './common/statusMessage.es6'; import { StatusType } from './const.es6'; */
 /* global scrollToTop:false import { richTextEditorBuilder } from './richTextEditor.es6'; import BootboxWrapper from './common/bootboxWrapper.es6'; */
 

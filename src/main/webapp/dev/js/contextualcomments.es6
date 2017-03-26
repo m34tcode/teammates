@@ -1,5 +1,7 @@
+import tinymce from 'tinymce';
+import { isBlank } from './common/helper.es6';
 /* globals import { richTextEditorBuilder } from './richTextEditor.es6';,
-           tinymce:false,
+           import tinymce from 'tinymce';,
            isBlank:false,
            import { setStatusMessage } from './common/statusMessage.es6';,
            import { StatusType } from './const.es6';,
