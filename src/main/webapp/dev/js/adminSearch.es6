@@ -1,4 +1,5 @@
-/* global highlightSearchResult:false import { StatusType } from './const.es6'; import { setStatusMessage } from './common/statusMessage.es6'; */
+import { highlightSearchResult } from './common/ui.es6';
+/* global import { highlightSearchResult } from './common/ui.es6'; import { StatusType } from './const.es6'; import { setStatusMessage } from './common/statusMessage.es6'; */
 
 $(document).ready(() => {
     $('.fslink').hide();
@@ -110,7 +111,7 @@ function adminSearchCollapseAllInstructors() {
     $('.fslink_instructor').hide();
     $('.instructorRow').attr('class', 'instructorRow');
 }
-/*
+
 export default {
     submitResetGoogleIdAjaxRequest,
     adminSearchDiscloseAllStudents,
@@ -118,11 +119,3 @@ export default {
     adminSearchDiscloseAllInstructors,
     adminSearchCollapseAllInstructors,
 };
-*/
-/*
-exported submitResetGoogleIdAjaxRequest,
-         adminSearchDiscloseAllStudents,
-         adminSearchCollapseAllStudents,
-         adminSearchDiscloseAllInstructors,
-         adminSearchCollapseAllInstructors
-*/

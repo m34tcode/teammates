@@ -1,4 +1,4 @@
-/* global highlightSearchResult:false */
+/* global import { highlightSearchResult } from './common/ui.es6'; */
 
 $(document).ready(() => {
     $('.comments > .list-group-item').hover(function () {
