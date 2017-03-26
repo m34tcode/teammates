@@ -2,9 +2,10 @@ const path = require('path');
 const glob = require('glob');
 const webpack = require('webpack');
 
-const ROOT = './src/main/webapp';
+const ROOT = './src/main/webapp/dev';
 const BUILD = './src/main/webapp';
 
+const entry = {};
 // Map file names e.g. x/y.es6 -> entry['x/y'] = x/y.es6
 glob.sync(`${ROOT}/**/*.es6`).forEach((file) => {
     const pathObj = path.parse(file);
