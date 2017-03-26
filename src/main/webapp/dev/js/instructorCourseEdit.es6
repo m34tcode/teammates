@@ -1,4 +1,4 @@
-/* global scrollToElement:false BootboxWrapper:false StatusType:false */
+/* global scrollToElement:false import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 /* global COURSE_NAME:false COURSE_TIME_ZONE:false TimeZone:false courseTimeZone:false */
 
 // global parameter to remember settings for custom access level

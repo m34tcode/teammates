@@ -1,6 +1,6 @@
 /* global toggleSingleCollapse:false showCommentBox:false tinymce:false */
-/* global isBlank:false setStatusMessage:false StatusType:false */
-/* global scrollToTop:false richTextEditorBuilder:false BootboxWrapper:false */
+/* global isBlank:false setStatusMessage:false import { StatusType } from './const.es6'; */
+/* global scrollToTop:false richTextEditorBuilder:false import BootboxWrapper from './common/bootboxWrapper.es6'; */
 
 const COMMENT_TEXT = 'commenttext';
 const COMMENT_EDITTYPE = 'commentedittype';

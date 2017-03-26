@@ -2,7 +2,7 @@
            tinymce:false,
            isBlank:false,
            setStatusMessage:false,
-           StatusType:false,
+           import { StatusType } from './const.es6';,
            scrollToTop:false,
            isShowCommentBox:false,
            commentRecipient:false

@@ -3,10 +3,10 @@
           disallowNonNumericEntries:false,
           scrollToElement:false,
           setStatusMessage:false,
-          StatusType:false,
+          import { StatusType } from './const.es6';,
           sanitizeForJs:false,
           tinymce:false,
-          BootboxWrapper:false,
+          import BootboxWrapper from './common/bootboxWrapper.es6';,
           isNumber:false
  */
 

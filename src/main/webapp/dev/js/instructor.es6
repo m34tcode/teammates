@@ -1,6 +1,6 @@
 /* global TEAMNAME_MAX_LENGTH:false setStatusMessage:false DISPLAY_FIELDS_EMPTY:false */
-/* global StatusType:false isNameValid:false DISPLAY_NAME_INVALID:false */
-/* global DISPLAY_STUDENT_TEAMNAME_INVALID:false isEmailValid:false DISPLAY_EMAIL_INVALID:false BootboxWrapper:false
+/* global import { StatusType } from './const.es6'; isNameValid:false DISPLAY_NAME_INVALID:false */
+/* global DISPLAY_STUDENT_TEAMNAME_INVALID:false isEmailValid:false DISPLAY_EMAIL_INVALID:false import BootboxWrapper from './common/bootboxWrapper.es6';
 
 /*
  * This JavaScript file is included in all instructor pages. Functions here

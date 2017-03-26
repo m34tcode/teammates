@@ -1,4 +1,4 @@
-/* global Const:false BootboxWrapper:false StatusType:false */
+/* global Const:false import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 /**
  * Contains functions common to the student pages.
  */

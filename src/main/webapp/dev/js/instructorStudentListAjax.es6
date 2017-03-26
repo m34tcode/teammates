@@ -1,5 +1,5 @@
 /* global bindDefaultImageIfMissing:false bindStudentPhotoLink:false setStatusMessage:false */
-/* global StatusType:false clearStatusMessages:false checkCourseBinding:false */
+/* global import { StatusType } from './const.es6'; clearStatusMessages:false checkCourseBinding:false */
 
 const STUDENT_LIMIT = 3000;
 const PERFORMANCE_ISSUE_MESSAGE = `Due to performance issue, it is not allowed to show more than ${STUDENT_LIMIT

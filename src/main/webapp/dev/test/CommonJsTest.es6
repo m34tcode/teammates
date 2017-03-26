@@ -1,6 +1,6 @@
 /* global
 isWithinView:false, isNumber:false, isDate:false, setStatusMessage:false, clearStatusMessages:false
-roundToThreeDp:false, sanitizeForJs:false, isBlank:false, StatusType:false
+roundToThreeDp:false, sanitizeForJs:false, isBlank:false, import { StatusType } from './const.es6';
 addLoadingIndicator:false, removeLoadingIndicator:false
 sortBase:false, sortNum:false, sortDate:false, getPointValue:false, sortByPoint:false
 sanitizeGoogleId:false, isValidGoogleId:false, isEmailValid:false, isNameValid:false

@@ -1,5 +1,5 @@
 /* global
-setStatusMessage:false, appendStatusMessage:false, clearStatusMessages:false, bindEventsAfterAjax:false, StatusType:false
+setStatusMessage:false, appendStatusMessage:false, clearStatusMessages:false, bindEventsAfterAjax:false, import { StatusType } from './const.es6';
 */
 
 let isSessionsAjaxSending = false;

@@ -1,5 +1,5 @@
 /* global attachEventToDeleteStudentLink:false selectElementContents:false executeCopyCommand:false */
-/* global toggleSort:false match:false */
+/* global import { toggleSort } from './common/sortBy.es6'; match:false */
 
 $(document).ready(() => {
     attachEventToDeleteStudentLink();

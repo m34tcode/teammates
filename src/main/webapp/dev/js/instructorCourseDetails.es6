@@ -1,5 +1,5 @@
-/* global toggleSort:false selectElementContents:false attachEventToDeleteStudentLink:false setStatusMessage:false */
-/* global BootboxWrapper:false StatusType:false */
+/* global import { toggleSort } from './common/sortBy.es6'; selectElementContents:false attachEventToDeleteStudentLink:false setStatusMessage:false */
+/* global import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 
 $(document).ready(() => {
     if ($('#button_sortstudentsection').length) {

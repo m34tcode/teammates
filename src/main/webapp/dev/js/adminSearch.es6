@@ -1,4 +1,4 @@
-/* global highlightSearchResult:false StatusType:false setStatusMessage:false */
+/* global highlightSearchResult:false import { StatusType } from './const.es6'; setStatusMessage:false */
 
 $(document).ready(() => {
     $('.fslink').hide();

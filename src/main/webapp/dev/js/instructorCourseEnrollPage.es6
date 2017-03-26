@@ -1,4 +1,4 @@
-/* global BootboxWrapper:false StatusType:false */
+/* global import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 
 const loadUpFunction = function () {
     const typingErrMsg = 'Please use | character ( shift+\\ ) to seperate fields, or copy from your existing spreadsheet.';

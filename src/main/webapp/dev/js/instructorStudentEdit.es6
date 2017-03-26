@@ -1,4 +1,4 @@
-/* global BootboxWrapper:false StatusType:false */
+/* global import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; */
 
 const INSTRUCTOR_STUDENT_EDIT_FORM = '#instructor-student-edit-form';
 

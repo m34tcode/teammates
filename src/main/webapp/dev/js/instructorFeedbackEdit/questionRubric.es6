@@ -1,5 +1,5 @@
 /* global
-disallowNonNumericEntries:false, BootboxWrapper:false, StatusType:false
+disallowNonNumericEntries:false, import BootboxWrapper from './common/bootboxWrapper.es6';, import { StatusType } from './const.es6';
 */
 
 function addRubricRow(questionNum) {

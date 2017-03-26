@@ -1,4 +1,4 @@
-/* global StatusType:false setStatusMessage:false toggleSort:false richTextEditorBuilder:false */
+/* global import { StatusType } from './const.es6'; setStatusMessage:false import { toggleSort } from './common/sortBy.es6'; richTextEditorBuilder:false */
 
 // Form input placeholders
 const PLACEHOLDER_IMAGE_UPLOAD_ALT_TEXT = 'Please enter an alt text for the image';

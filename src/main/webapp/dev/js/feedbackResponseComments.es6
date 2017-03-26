@@ -1,10 +1,10 @@
 /* global tinyMCE:false,
           destroyEditor:false,
-          BootboxWrapper:false,
+          import BootboxWrapper from './common/bootboxWrapper.es6';,
           richTextEditorBuilder:false,
           tinymce:false,
           toggleChevron:false,
-          StatusType:false
+          import { StatusType } from './const.es6';
  */
 
 $(document).ready(() => {

@@ -1,5 +1,5 @@
-/* global setStatusMessage:false StatusType:false clearStatusMessages:false */
-/* global appendStatusMessage:false toggleSort:false linkAjaxForCourseStats:false */
+/* global setStatusMessage:false import { StatusType } from './const.es6'; clearStatusMessages:false */
+/* global appendStatusMessage:false import { toggleSort } from './common/sortBy.es6'; linkAjaxForCourseStats:false */
 
 let isFetchingCourses = false;
 let needsRetrying = false;

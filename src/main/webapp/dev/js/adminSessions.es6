@@ -1,4 +1,4 @@
-/* global bindBackToTopButtons:false */
+/* global import { bindBackToTopButtons } from './adminstrator.es6'; */
 
 $(document).ready(() => {
     $('#timeFramePanel').toggle();

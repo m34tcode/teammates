@@ -1,6 +1,6 @@
 /* global bindDeleteButtons:false bindRemindButtons:false bindPublishButtons:false */
-/* global bindUnpublishButtons:false setupFsCopyModal:false BootboxWrapper:false */
-/* global StatusType:false global linkAjaxForResponseRate:false */
+/* global bindUnpublishButtons:false setupFsCopyModal:false import BootboxWrapper from './common/bootboxWrapper.es6'; */
+/* global import { StatusType } from './const.es6'; global linkAjaxForResponseRate:false */
 
 const COURSE_PANELS_TO_AUTO_LOAD_COUNT = 3;
 const CURRENT_YEAR = (new Date()).getFullYear();

@@ -1,4 +1,4 @@
-/* global StatusType:false setStatusMessage:false addLoadingIndicator:false removeLoadingIndicator:false */
+/* global import { StatusType } from './const.es6'; setStatusMessage:false addLoadingIndicator:false removeLoadingIndicator:false */
 /**
  * Contains functions to be used to display email logs in `/adminEmailLog`
  */
