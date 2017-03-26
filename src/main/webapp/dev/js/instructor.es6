@@ -470,3 +470,7 @@ function selectElementContents(elementNode) {
 function executeCopyCommand() {
     document.execCommand('copy');
 }
+
+export default {
+    selectElementContents,
+};
