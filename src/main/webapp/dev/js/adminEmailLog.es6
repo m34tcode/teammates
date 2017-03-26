@@ -1,4 +1,7 @@
-/* global import { StatusType } from './const.es6'; import { setStatusMessage } from './common/statusMessage.es6'; import { addLoadingIndicator } from './common/ui.es6'; import { removeLoadingIndicator } from './common/ui.es6'; */
+import { StatusType } from './const.es6'; 
+import { setStatusMessage } from './common/statusMessage.es6'; 
+import { addLoadingIndicator, removeLoadingIndicator } from './common/ui.es6'; 
+
 /**
  * Contains functions to be used to display email logs in `/adminEmailLog`
  */
@@ -74,10 +77,7 @@ function highlightKeywordsInEmailLogMessages() {
     $('.email-content').highlight($('#query-keywords-for-content').val().split(','));
 }
 
-/*
 export default {
     toggleReference,
     submitFormAjax,
 };
-*/
-/* exported toggleReference, submitFormAjax */

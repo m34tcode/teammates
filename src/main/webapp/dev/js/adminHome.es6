@@ -1,4 +1,5 @@
-/* global encodeHtmlString:false */
+import { encodeHtmlString } from './common/sanitizer.es6';
+
 /**
  * Functions defined and used in `/adminHome`
  */
@@ -157,10 +158,7 @@ function addInstructorFromSecondFormByAjax() {
     addInstructorByAjaxRecursively();
 }
 
-/*
 export default {
     addInstructorFromFirstFormByAjax,
     addInstructorFromSecondFormByAjax,
 };
-*/
-/* exported addInstructorFromFirstFormByAjax, addInstructorFromSecondFormByAjax */
