@@ -1,4 +1,7 @@
-import BootboxWrapper from './common/bootboxWrapper.es6'; import { StatusType } from './const.es6'; import { toggleSort } from './common/sortBy.es6'; import { bindBackToTopButtons } from './adminstrator.es6';
+import BootboxWrapper from './common/bootboxWrapper.es6'; 
+import { StatusType } from './const.es6'; 
+import { toggleSort } from './common/sortBy.es6'; 
+import { bindBackToTopButtons } from './adminstrator.es6';
 
 const entryPerPage = 200;
 
